@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import logo from "../assets/logo.png";
+import logo from "../assets/luxulogo.png";
 import { useEffect, useState, useContext } from "react";
 import db from "../config/firebase";
 import { auth, provider } from "../config/firebase";
@@ -82,7 +82,7 @@ export function Navbar() {
       <div className="hidden lg:block lg:absolute lg:w-[30%] ">
         <Profile/>
       </div>
-      <div className="fixed px-[1rem] w-[100%] navbar bg-[#ffc5b9] z-10">
+      <div className="fixed px-[1rem] w-[100%] navbar bg-white z-10">
         <div className="flex items-center justify-between">
           <div className="lg:w-[100vw] my-[-1rem] lg:flex lg:flex-col lg:items-center">
             <Link to="/">
